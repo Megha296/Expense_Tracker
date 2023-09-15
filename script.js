@@ -81,9 +81,9 @@ function updateValues() {
     -1
   ).toFixed(2);
 
-  balance.innerText = `$${total}`;
-  money_plus.innerText = `$${income}`;
-  money_minus.innerText = `$${expense}`;
+  balance.innerText = `Rs.${total}`;
+  money_plus.innerText = `Rs.${income}`;
+  money_minus.innerText = `Rs.${expense}`;
 }
 
 
